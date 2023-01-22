@@ -1,4 +1,4 @@
-# obsidian-cleaner
+# Obsidian Cleaner
 
 [Obsidian document](https://github.com/brachkow/obsidian-cleaner/blob/main/Obsidian%20Cleaner.md) that finds potentially rubbish notes
 
