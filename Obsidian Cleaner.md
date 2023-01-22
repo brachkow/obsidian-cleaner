@@ -3,13 +3,23 @@ This is [obsidian cleaner](https://github.com/brachkow/obsidian-cleaner). If you
 ## Notes with no title
 ```dataview
 TABLE
-FROM "/"
+FROM ""
 WHERE contains(file.name, "Untitled")
 ```
 
 ## Empty notes
 ```dataview
 TABLE
-FROM "/"
+FROM ""
 WHERE file.size = 0
+```
+
+## Tags by usage
+```dataview
+TABLE WITHOUT ID (tag + "(" + length(rows.file.link) + ")") AS Tags, link(sort(rows.file.name)) AS Files
+FROM ""
+WHERE file.tags 
+FLATTEN file.tags AS tag 
+GROUP BY tag
+SORT length(rows.file.link) ASC
 ```
