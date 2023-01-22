@@ -1,10 +1,9 @@
 # Obsidian Cleaner
 
-[Obsidian document](https://github.com/brachkow/obsidian-cleaner/blob/main/Obsidian%20Cleaner.md) that finds potentially rubbish notes
-
-- Shows untitled notes
-- Shows notes without content
-- Shows all tags sorted by usage
+[Obsidian document](https://github.com/brachkow/obsidian-cleaner/blob/main/Obsidian%20Cleaner.md) that highlights potentially rubbish notes by
+- listing untitled notes
+- listing notes without content
+- listing all tags sorted by usage
 
 ## Installation
 0. Make sure that you have [Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin installed
