@@ -1,6 +1,6 @@
 # obsidian-cleaner
 
-Obsidian document that finds potentially rubbish notes
+[Obsidian document](https://github.com/brachkow/obsidian-cleaner/blob/main/Obsidian%20Cleaner.md) that finds potentially rubbish notes
 
 ## Installation
 0. Make sure that you have [Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin installed
