@@ -4,6 +4,7 @@
 - listing untitled notes
 - listing notes without content
 - listing all tags sorted by usage
+- liting notes by their modification date
 
 ## Installation
 0. Make sure that you have [Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin installed

@@ -1,4 +1,4 @@
-This is [obsidian cleaner](https://github.com/brachkow/obsidian-cleaner). If you are in reading view and have everything installed correctly you will see lists of potentially rubbish notes bellow.
+This is [obsidian cleaner](https://github.com/brachkow/obsidian-cleaner). If you are in reading view and have everything installed correctly you will see lists of notes that potentially need your attention.
 
 ## Notes with no title
 ```dataview
