@@ -23,3 +23,11 @@ FLATTEN file.tags AS tag
 GROUP BY tag
 SORT length(rows.file.link) ASC
 ```
+
+## Not modified for a long time
+
+```dataview
+TABLE file.mtime as "Last modified"
+FROM ""
+SORT file.mtime ASC
+```
