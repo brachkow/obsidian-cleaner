@@ -1,4 +1,4 @@
-This is [obsidian cleaner](https://github.com/brachkow/obsidian-cleaner). If you are in reading view and have everything installed correctly you will see lists of notes that potentially need your attention.
+This is [obsidian cleaner](https://github.com/brachkow/obsidian-cleaner). If you are in reading view and have everything installed correctly you will see lists of potentially rubbish notes bellow.
 
 ## Notes with no title
 ```dataview
@@ -30,4 +30,12 @@ SORT length(rows.file.link) ASC
 TABLE file.mtime as "Last modified"
 FROM ""
 SORT file.mtime ASC
+```
+
+## Notes not linked to other notes and tags
+```dataview
+TABLE
+FROM ""
+WHERE !link.outgoing AND !links.incoming AND !tags
+SORT file.ctime DESC
 ```
